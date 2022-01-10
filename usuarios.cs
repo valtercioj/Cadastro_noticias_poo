@@ -25,7 +25,7 @@ class Usuarios{
 		}
 		for(int i = 0; i<id_user; i++){
 			Console.WriteLine();
-			Console.WriteLine($"{id_user}-{usuarios[i]}");
+			Console.WriteLine($"{i+1}-{usuarios[i]}");
 			Console.WriteLine();
 		}
 	}
